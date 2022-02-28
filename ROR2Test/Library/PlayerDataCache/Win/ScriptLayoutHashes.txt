@@ -1,6 +1,6 @@
 Win
 PlayerPath?
-D:/RBiscuits/mod/ROR2Test/ThunderKit/AssetBundleStaging/test.ros
+C:/Users/parro/Documents/GitHub/ROR2Group4/ROR2Test/ThunderKit/AssetBundleStaging/test.ros
 SceneListBegin?
 Assets/Scenes/Test.unity
 SceneListEnd?
