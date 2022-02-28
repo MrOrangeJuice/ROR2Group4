@@ -26,10 +26,11 @@ namespace ROR2RiskyBiscuits
 
         private void OnTriggerEnter(Collider other)
         {
+            Chat.SendBroadcastChat(new Chat.SimpleChatMessage { baseToken = "<color=#e5eefc>{0}</color>", paramTokens = new[] { "entered cube trigger area" } });
             for (int i = 0; i < CharacterMaster.readOnlyInstancesList.Count; i++)
             {
                 //CharacterMaster.readOnlyInstancesList[i] is the player.
-                if (other == CharacterMaster.readOnlyInstancesList[i].gameObject.GetComponent<Collider>())
+                if (other == CharacterMaster.readOnlyInstancesList[i])
                 {
                     Chat.SendBroadcastChat(new Chat.SimpleChatMessage { baseToken = "<color=#e5eefc>{0}</color>", paramTokens = new[] { "TESTING TESTING" } });
                 }

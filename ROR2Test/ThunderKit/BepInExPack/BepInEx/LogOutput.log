@@ -9,7 +9,23 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 0 plugins to load
+[Info   :   BepInEx] 1 plugins to load
+[Info   :   BepInEx] Loading [RainOfStages 3.0.10]
+[Warning:RainOfStages] Constructor Executed
+[Info   :RainOfStages] Configuring 2 Hooks
+[Debug  :RainOfStages] Source Method Binding Flags: Static  | Public
+[Debug  :RainOfStages] Source Method: PassivePicasso.RainOfStages.Hooks.NonProxyHooks.DrawLine(Vector3 start,Vector3 end,Color color,Single duration,Boolean depthTest)
+[Debug  :RainOfStages] Target Method: UnityEngine.Debug.DrawLine(Vector3 start,Vector3 end,Color color,Single duration,Boolean depthTest)
+[Debug  :RainOfStages] Method: (DrawLine) on UnityEngine.Debug
+[Debug  :RainOfStages] Target Method: UnityEngine.Debug.DrawLine(Vector3 start,Vector3 end,Color color,Single duration,Boolean depthTest)
+[Info   :RainOfStages] Hooking: UnityEngine.Debug.DrawLine hooked by (PassivePicasso.RainOfStages.Hooks.NonProxyHooks.DrawLine)
+[Debug  :RainOfStages] Source Method Binding Flags: Static  | NonPublic
+[Debug  :RainOfStages] Source Method: PassivePicasso.RainOfStages.Hooks.NonProxyHooks.MainMenuController_Start()
+[Debug  :RainOfStages] Target Method: RoR2.UI.MainMenu.MainMenuController.Start()
+[Debug  :RainOfStages] Method: (Start) on RoR2.UI.MainMenu.MainMenuController
+[Debug  :RainOfStages] Target Method: RoR2.UI.MainMenu.MainMenuController.Start()
+[Info   :RainOfStages] Hooking: RoR2.UI.MainMenu.MainMenuController.Start hooked by (PassivePicasso.RainOfStages.Hooks.NonProxyHooks.MainMenuController_Start)
+[Info   :RainOfStages] Initializing Rain of Stages
 [Message:   BepInEx] Chainloader startup complete
 [Warning: Unity Log] Network message MsgType.Highest + 22 is unregistered.
 [Info   :   Console] Facepunch.Steamworks Unity: WindowsPlayer
@@ -35,30 +51,80 @@
   arg[1]="--doorstop-enable"
   arg[2]="true"
   arg[3]="--doorstop-target"
-  arg[4]="C:/Users/Jetfi/OneDrive/Documents/GitHub/ROR2Group4/ROR2Test/ThunderKit/BepInExPack/BepInEx/core/BepInEx.Preloader.dll"
+  arg[4]="C:/Users/parro/Documents/GitHub/ROR2Group4/ROR2Test/ThunderKit/BepInExPack/BepInEx/core/BepInEx.Preloader.dll"
 
 [Info   : Unity Log] Loaded archived convars.
 [Info   : Unity Log] Could not load config /Config/autoexec.cfg: Could not find file "C:\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\autoexec.cfg"
 [Info   : Unity Log] LoadContentPacks() start
 [Info   : Unity Log] Active scene changed from  to loadingbasic
 [Info   : Unity Log] Loaded scene loadingbasic loadSceneMode=2
+[Info   :RainOfStages] C:\Users\parro\Documents\GitHub\ROR2Group4\ROR2Test\ThunderKit\BepInExPack\BepInEx\plugins\RainOfStages
+[Debug  :RainOfStages] SimpleLoading: C:\Users\parro\Documents\GitHub\ROR2Group4\ROR2Test\ThunderKit\BepInExPack\BepInEx\plugins
+[Debug  :RainOfStages] Loading bundle: sampledefinitions.ros
+[Info   :RainOfStages] [NetworkCompatibility] Adding Map Guid: sampledefinitions.ros@1e1beadb19558cb8aa5e5054460f48c2
+[Debug  :RainOfStages] Loading bundle: test.ros
+[Info   :RainOfStages] [NetworkCompatibility] Adding Map Guid: test.ros@361342f0c970233252eca577e88373ef
+[Info   :RainOfStages] Loaded Scene Definitions: Test
+[Info   :RainOfStages] Loaded Runs: Test
 [Info   : Unity Log] LoadContentPacks() end
-[Info   : Unity Log] Game content load completed in 137424ms.
+[Message:RainOfStages] 2 ContentPacks found
+[Message:RainOfStages] 29 SceneDefs found in all loaded ContentPacks
+[Message:RainOfStages] 29 lookups found
+[Info   : Unity Log] Game content load completed in 8877ms.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.MoonElevator.ReturnToBase (RoR2.EntityStateConfiguration)) failed: state type is null.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.MoonElevator.TravelToEnd (RoR2.EntityStateConfiguration)) failed: state type is null.
 [Info   : Unity Log] [RoR2.EntityStateCatalog] ApplyEntityStateConfiguration(EntityStates.MoonElevator.WaitAtTop (RoR2.EntityStateConfiguration)) failed: state type is null.
 [Info   : Unity Log] [RoR2.Language] Setting current language to "en"
-[Info   : Unity Log] Attempting to load user profile /UserProfiles/3a2c283f-8a11-45d5-8355-97c8b9e1e2c8.xml
-[Info   : Unity Log] stream.Length=139301
-[Info   : Unity Log] Attempting to load user profile /UserProfiles/4360d190-5387-4d2c-bdf6-bf902e490b00.xml
-[Info   : Unity Log] stream.Length=118033
+[Info   : Unity Log] Attempting to load user profile /UserProfiles/53343951-f73c-4bed-8cb5-25607eb17e44.xml
+[Info   : Unity Log] stream.Length=122015
 [Info   : Unity Log] Unloaded scene loadingbasic
 [Info   : Unity Log] Active scene changed from  to splash
 [Info   : Unity Log] Loaded scene splash loadSceneMode=Single
-[Info   : Unity Log] Setting offline scene to title
+[Info   : Unity Log] Setting offline scene to intro
 [Info   : Unity Log] Unloaded scene splash
+[Info   : Unity Log] Active scene changed from  to intro
+[Info   : Unity Log] Loaded scene intro loadSceneMode=Single
+[Info   : Unity Log] Setting offline scene to title
+[Info   : Unity Log] Unloaded scene intro
 [Info   : Unity Log] Active scene changed from  to title
 [Info   : Unity Log] Loaded scene title loadSceneMode=Single
-[Info   : Unity Log] Saved file "3a2c283f-8a11-45d5-8355-97c8b9e1e2c8.xml" (139301 bytes)
+[Debug  :RainOfStages] Adding GameModes to ExtraGameModeMenu menu
+[Debug  :RainOfStages] Found: GenericMenuButton (Weekly)
+[Info   :RainOfStages] Finished Main Menu Modifications
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
+[Info   : Unity Log] Unloaded scene title
+[Info   : Unity Log] Active scene changed from  to lobby
+[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
+[Info   : Unity Log] gridColumns=8,totalElements=11,gridRows=2,maxEntryCount=16
+[Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
+[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
+[Error  : Unity Log] A connection has already been set as ready. There can only be one.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] subscribed
+[Info   : Unity Log] Could not load config /Config/server_pregame.cfg: Could not find file "C:\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\server_pregame.cfg"
+[Info   : Unity Log] Attempting to generate PreGameVoteController for Super Citrus
+[Info   : Unity Log] PreGameRuleVoteController.ClientTransmitVotesToServer()
+[Info   : Unity Log] Received vote from Super Citrus
+[Info   : Unity Log] Accepting vote from Super Citrus
+[Info   : Unity Log] <style=cEvent>Super Citrus connected.</color>
+[Info   : Unity Log] Unloaded scene lobby
+[Info   : Unity Log] Active scene changed from  to Test
+[Info   : Unity Log] Loaded scene Test loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=Test currentSceneName=Test
+[Info   : Unity Log] Client ready.
+[Info   : Unity Log] Player 0 already added, aborting.
+[Info   : Unity Log] Spending 200 credits on interactables...
+[Info   : Unity Log] Spawn card cscLemurian (PassivePicasso.RainOfStages.Proxy.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Info   : Unity Log] Spawn card cscBeetle (PassivePicasso.RainOfStages.Proxy.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Info   : Unity Log] Spawn card cscLemurian (PassivePicasso.RainOfStages.Proxy.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Info   : Unity Log] Spawn card cscBeetle (PassivePicasso.RainOfStages.Proxy.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Info   : Unity Log] Spawn card cscBeetle (PassivePicasso.RainOfStages.Proxy.CharacterSpawnCard) failed to spawn. Aborting cost procedures.
+[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.SpawnEffect. This WILL result in an NRE!!! Use EffectManager.SpawnEffect or don't use EffectComponent!!!!!
+[Info   : Unity Log] <style=cShrine>You have invited the challenge of the Mountain..</color>
+[Info   : Unity Log] <style=cDeath><sprite name="Skull" tint=1> Sucks to suck. <sprite name="Skull" tint=1></style>
+[Info   : Unity Log] Saved file "53343951-f73c-4bed-8cb5-25607eb17e44.xml" (122022 bytes)
 [Info   : Unity Log] Shutting down Steamworks...
 [Info   : Unity Log] Shut down Steamworks.
+[Info   : Unity Log] Transfered 1.2 monster credits from Director (UnityEngine.GameObject) to Director (UnityEngine.GameObject)
+[Error  : Unity Log] Cannot set the parent of the GameObject 'Flames' while activating or deactivating the parent GameObject 'FireballGhost(Clone)'.
